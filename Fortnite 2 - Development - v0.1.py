@@ -1,15 +1,5 @@
 import time
 import os
-#-------------------------------------------------------------------------------
-# Name:        Fortnite 2
-# Purpose:  Creating the best new game, with AAA development.
-#
-# Author:      Sam
-#
-# Created:     19/09/2018
-#-------------------------------------------------------------------------------
-
-
 
 playerName = input("What is your player name? ")
 
@@ -45,9 +35,12 @@ if mainMenu == "Solo":
     print("Fortnite 2 is loading...")
     time.sleep(2)
     os.system('cls')
-#thankBattleBus = input("Do you want to thank the battle bus driver? Y/N")
-#if thankBattleBus == "Y":
-#Code to be fixed later innit
+    input("Do you want to thank the battle bus driver? Y/N")
+    if input == "Y":
+        print("Thanks battle bus driver")
+    else:
+        print("Wowie aren't you nice")
+
 
 
 elif mainMenu == "Duos":
